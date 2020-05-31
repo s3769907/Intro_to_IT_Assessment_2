@@ -45,6 +45,9 @@ display: flex;
 }
 
 .profile-image-wrapper img {
+  position: relative;
+  left: 95px;
+  top: 100px;
 
 }
 

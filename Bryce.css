@@ -1,46 +1,68 @@
+body{
+  margin: 0px;
+}
+
+.container {
+  display
+}
+
 .sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    overflow-x: hidden;
-    padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 38px; 
+}
+.left-side{
+display: flex;
+}
+
+.sidenav > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+  height :22px; 
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper :hover{
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+  color: black;
+}
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 0.35fr 1fr;
+}
+
+.profile-image-wrapper img {
+  position: relative;
+  left: 35px;
+  top: 200px;
+
+}
+
+.profile-content-wrapper {
+  padding: 30px;
+}
+.brand {
+      font-family: Lucida console monacle monospace ;
+      font-size: 30px;
+      background-color: red;
+      color: yellow;
   }
-  
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+.active-nav-link {
+      border-bottom: 1px solid black;
   }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  body {
-    background-color: #000000 ;
-    text-align: center;
-    width :800px;
-    margin-right: auto;
-    margin-left: auto;
-    color: #FFFFFF;
-    
-   }
-   h1 {
-   background-color: black;
-   color: #FFFFFF;
-   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-   }
-   h2{
-       font-family: "Courier New", Courier, monospace;
-   }
-   
-    p{
-       font-family: "Times New Roman", Times, serif;
-    }
-   
-    
+
+  .active-nav-link a {
+      color: black !important;

@@ -1,5 +1,5 @@
 body{
-    margin: 0px;
+    margin: 10px;
     background-color: whitesmoke;
 }
 
@@ -49,7 +49,7 @@ display: flex;
 
 .profiles-item-wrapper{
     position: relative;
-    
+
 }
 
 .profile-img-background {

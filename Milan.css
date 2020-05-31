@@ -3,7 +3,8 @@ body{
 }
 
 .container {
-    display
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .sidenav {
