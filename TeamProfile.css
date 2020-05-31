@@ -1,11 +1,13 @@
 body{
     margin: 10px;
-    background-color: whitesmoke;
+    background-color: white;
+    text-decoration: none;
 }
 
 .container {
     display : grid;
     grid-template-columns: 1fr;
+    text-decoration: none;
 }
 
 .sidenav {
@@ -15,40 +17,50 @@ body{
 }
 .left-side{
 display: flex;
+text-decoration: none;
 }
 
 .sidenav > .left-side > div {
     margin-right: 20px;
     font-size: 0.9em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .nav-link-wrapper{
     height :22px; 
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
+    text-decoration: none;
 }
 .nav-link-wrapper a {
     color: #8a8a8a;
     text-decoration: none;
     transition: color 0.5s;
+    text-decoration: none;
 }
 
 .nav-link-wrapper :hover{
     border-bottom: 1px solid black;
+    text-decoration: none;
 }
 
 .nav-link-wrapper a:hover{
     color: black;
+    text-decoration: none;
 }
 
 .profiles-items-wrapper {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: none;
+    
 }
 
 .profiles-item-wrapper{
     position: relative;
+    text-decoration: none;
+    text-decoration: none;
 
 }
 
@@ -58,6 +70,8 @@ display: flex;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-decoration: none;
+    
 }
 
 .img-text-wrapper {
@@ -71,32 +85,40 @@ display: flex;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
+    text-decoration: none;
 }
 .img-text-wrapper .subtitle{
     transition:1s;
     font-weight: 600;
     color: transparent;
+    text-decoration: none;
 }
     
 .img-text-wrapper:hover .subtitle{
     font-weight: 600;
     color: white;
     font-size: large;
-}
-.img-darken{
-    transition: 1s;
-    filter: brightness(10%);
+    text-decoration: none;
 }
 
 .active-nav-link {
     border-bottom: 1px solid black;
+    text-decoration: none;
 }
 .active-nav-link a {
     color: black !important;
+    text-decoration: none;
 }
 .brand {
     font-family: Lucida console monacle monospace ;
     font-size: 30px;
     background-color: red;
     color: yellow;
+    
+}
+img-text-wrapper:hover .subtitle-nipun{
+    font-weight: 600;
+    color: black;
+    font-size: large;
+    text-decoration: none;
 }

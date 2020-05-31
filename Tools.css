@@ -4,10 +4,7 @@ body{
 
 }
 
-.container {
- display: grid;
-    grid-template-columns: 1fr;
-}
+
 
 .sidenav {
   display: flex;
@@ -42,10 +39,7 @@ display: flex;
 .nav-link-wrapper a:hover{
   color: black;
 }
-.two-column-wrapper {
-  display: grid;
-  grid-template-columns: 0.35fr 1fr;
-}
+
 
 .profile-image-wrapper img {
   position: relative;
@@ -71,3 +65,15 @@ padding-left: 500px;
 
   .active-nav-link a {
       color: black !important;
+  }
+  h3{
+    border-style: solid;
+    display: inline;
+  }
+  h4{
+    border-style: double;
+    display: inline;
+  }
+  p{
+    font-family: Georgia, serif;
+  }

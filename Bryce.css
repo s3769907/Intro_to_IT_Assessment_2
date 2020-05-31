@@ -47,7 +47,7 @@ display: flex;
 .profile-image-wrapper img {
   position: relative;
   left: 35px;
-  top: 200px;
+  top: 40px;
 
 }
 
@@ -66,3 +66,15 @@ display: flex;
 
   .active-nav-link a {
       color: black !important;
+  }
+      h3{
+        border-style: solid;
+        display: inline;
+      }
+      h4{
+        border-style: double;
+        display: inline;
+      }
+      p{
+        font-family: Georgia, serif;
+      }
